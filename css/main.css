@@ -6,9 +6,10 @@
 body {
     background: #cee1eb url('../img/confectionary.png');
     padding:20px;
+    font-family:'Open Sans', Arial, sans-serif;
 }
 
-body *{
+body > *{
     min-width:960px;
     max-width:1200px;
     width:80%;
@@ -18,17 +19,63 @@ body *{
 
 h1, h2, h3, h4, h5, h6 {
     color: #823354;
-    font-weight:bold;
-    font-family: Arial, sans-serif;
+    font-weight:600;
 }
 
 h1 {
     font-size:2.5rem;
+    margin:.6rem 0;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-weight:500;
+}
+
+h2 {
+    font-size:1.8rem;
+    margin:.6rem 0;
+}
+
+h3 {
+    font-size:1.6rem;
+    margin: .6rem 0;
+}
+
+p {
+    padding:.4rem 0;
 }
 
 /* HEADER ============================== */
-header h1{
-    font-size:3rem;
+header > h1{
+    font-size:4rem;
+    letter-spacing:-.2rem;
+    margin:0;
+    line-height:4rem;
+    vertical-align:middle;
+}
+
+header > h1 > span{
+    font-weight:300;
+}
+
+header > h1 > span:last-of-type{
+    font-size:1.8rem;
+    letter-spacing:-.08rem;
+    top:-20px;
+    display:inline-block;
+    position:relative;
+    top:-.4rem;
+}
+
+/* MAIN ============================== */
+main article {
+    margin-bottom:30px;
+}
+
+main article section{
+    margin:1rem 0;
+}
+
+main article section > img{
+    margin:.6rem 0;
 }
 /* ABOUT ============================== */
 
