@@ -2,3 +2,149 @@
 ============================================================
 ============================================================*/
 
+body {
+    background-color:#eceff1;
+    font-family:'Rubik', sans-serif;
+    font-weight:400;
+    padding:20px;
+}
+
+body main{
+    width:1200px;
+    margin: 0 auto;
+}
+
+main article {
+    font-size:0;
+}
+
+main article div.wrapper{
+    padding: 0 15px;
+    width:25%;
+    display:inline-block;
+    vertical-align:top;
+    font-size:initial;
+}
+
+main article figure {
+    width:100%;
+    margin-bottom: 30px;
+    background-color:#fff;
+    position:relative;
+    text-align:center;
+    padding-bottom:47px;
+}
+
+main article figure p.sale {
+    position:absolute;
+    top:0;
+    left:0;
+    background-color:#2196f3;
+    color:#fff;
+    line-height:29px;
+    padding:0 8px;
+    font-size:13px;
+    display:inline-block;
+    margin-top:0;
+}
+
+main article figure img{
+    padding:5%;
+    width:100%;
+}
+
+main article figure h4{
+    font-size:14px;
+    font-weight:500;
+    text-transform:uppercase;
+    line-height:26px;
+    letter-spacing:1px;
+}
+
+main article figure p, main article figure p:last-of-type{
+    line-height:20px;
+    font-size:14px;
+    color:#90a4ae;
+}
+
+main article figure p{
+    margin-top:8px;
+    font-weight:500;
+}
+
+main article figure p:last-of-type{
+    text-decoration: line-through;
+    font-weight:400;
+    margin-top:0;
+}
+
+main article figure ul {
+    padding:0;
+    list-style: none;
+    margin-top: 9px;
+    text-align:center;
+}
+
+main article figure li {
+    display:inline-block;
+    text-align:center;
+    margin: 0 10px;
+}
+
+main article figure li > a.icon::before{
+    margin:0;
+    font-size:24px;
+    line-height:26px;
+}
+
+main article figure li > a:link, main article figure li > a:visited{
+    color:#cfd8dc;
+}
+
+main article figure li > a.icon:hover{
+    color:#2196f3;
+}
+
+main article div.banner{
+    width:50%;
+    font-size:0;
+}
+
+main article div.banner figure{
+    padding-bottom:0;
+}
+
+main article div.banner figure img{
+    padding:0;
+}
+
+main article div.banner figure figcaption{
+    position:absolute;
+    top:50%;
+    width:100%;
+    transform:translateY(-65%);
+    z-index:4;
+    font-size:initial;
+    color:#fff;
+}
+
+main article div.banner figure figcaption h3{
+    font-size:34px;
+    line-height:55px;
+    letter-spacing: 2px;
+    margin-bottom:20px;
+    font-weight:500;
+    text-transform: uppercase;
+}
+
+main article div.banner figure figcaption button{
+    font-size:15px;
+    text-transform: uppercase;
+    font-weight:600;
+    /*font-weight:500;*/
+    letter-spacing:2px;
+    padding:13px 38px;
+    border: 3px solid #fff;
+    background:none;
+    color:#fff;
+}
