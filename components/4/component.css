@@ -2,3 +2,46 @@
 ============================================================
 ============================================================*/
 
+body main{
+    margin: 20px auto;
+    width:1170px;
+}
+
+nav.pagination{
+    float:right;
+}
+
+nav.pagination ul{
+    padding:0;
+    list-style: none;
+}
+
+nav.pagination ul li{
+    display:inline-block;
+}
+
+nav.pagination ul li a{
+    display:inline-block;
+    background:#333333;
+    color:#fff;
+    vertical-align: middle;
+    text-align:center;
+    min-width:30px;
+    padding:8.5px;
+    font-size:13px;
+    line-height:13px;
+    font-family:'Ubuntu', sans-serif;
+}
+
+nav.pagination ul li a.active{
+    font-weight:bold;
+    background:#91c243;
+}
+
+nav.pagination ul li a:hover{
+    background:#91c243;
+}
+
+nav.pagination ul li:not(:first-of-type){
+    padding-left:2px;
+}
