@@ -4,20 +4,15 @@
 
 body {
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 10.5px;
-    line-height:1.07;
-    /*font-size: 14px;*/
-    /*line-height:1.42857143;*/
+    font-size: 14px;
+    line-height:1.42857143;
     color:#333;
 }
 
 body main article {
     height:652px;
     position:relative;
-    width:1884px;
-    /*height:869px;*/
-    /*position:absolute;*/
-    /*width:2511px;*/
+    width:1903px;
     overflow:hidden;
     max-width:100%;
 }
@@ -29,19 +24,16 @@ body main article img {
 }
 
 body main article p {
-    line-height:60px;
-    /*line-height:80px;*/
+
+    line-height:80px;
     display:block;
-    letter-spacing: -0.525px;
-    /*letter-spacing: -0.7px;*/
+    letter-spacing: -0.7px;
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
     font-style: normal;
     color: #ffffff;
-    font-size:54px;
-    width: 467.4px;
-    /*font-size:72px;*/
-    /*width: 623px;*/
+    font-size:72px;
+    width: 623px;
     top:50%;
     left: 19%;
     position:absolute;
@@ -70,8 +62,7 @@ body main article a.next{
 }
 
 body main article a::before{
-    font-size:41.2px;
-    /*font-size:55px;*/
+    font-size:55px;
     line-height:1;
 }
 
