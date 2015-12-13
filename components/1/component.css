@@ -17,6 +17,18 @@ body main article {
     max-width:100%;
 }
 
+body main article ul li{
+    height:658px;
+}
+
+body main article ul li:first-of-type{
+    background: url("img/heroBG-slide1.jpg") center;
+}
+
+body main article ul li:nth-of-type(2){
+    background: url("img/heroBG-slide2.jpg") center;
+}
+
 body main article img {
     width:100%;
     display:inline-block;
@@ -40,7 +52,7 @@ body main article p {
     transform: translateY(-50%);
 }
 
-body main article a.fa{
+body main article button.fa{
     top:50%;
     z-index:3;
     font-size:0;
@@ -48,24 +60,29 @@ body main article a.fa{
     transform: translateY(-50%);
 }
 
-body main article a {
+body main article button, body main article button:focus {
     color:#fff;
     cursor: pointer;
+    background:none;
+    border:none;
+    margin:0;
+    padding:0;
+    outline:none;
 }
 
-body main article a.prev{
+body main article button.prev{
     left: 3%;
 }
 
-body main article a.next{
+body main article button.next{
     right:3%;
 }
 
-body main article a::before{
+body main article button::before{
     font-size:55px;
     line-height:1;
 }
 
-body main article a:hover{
+body main article button:hover{
     color:#333;
 }

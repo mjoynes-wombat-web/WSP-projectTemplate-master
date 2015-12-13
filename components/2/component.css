@@ -9,33 +9,40 @@ body {
     padding:20px;
 }
 
+del{
+    text-decoration: line-through;
+}
+
 body main{
     width:1200px;
     margin: 0 auto;
 }
 
-main article {
+main section {
     font-size:0;
 }
 
-main article div.wrapper{
-    padding: 0 15px;
-    width:25%;
-    display:inline-block;
-    vertical-align:top;
-    font-size:initial;
-}
+/*main section div.wrapper{*/
+    /*padding: 0 15px;*/
+    /*width:25%;*/
+    /*display:inline-block;*/
+    /*vertical-align:top;*/
+    /*font-size:initial;*/
+/*}*/
 
-main article figure {
-    width:100%;
-    margin-bottom: 30px;
+main section article {
+    width: 22.5%;
+    margin:0 1.25% 30px 1.25%;
     background-color:#fff;
     position:relative;
     text-align:center;
+    display: inline-block;
+    vertical-align:top;
     padding-bottom:47px;
+    font-size:initial;
 }
 
-main article figure p.sale {
+main section article p.sale {
     position:absolute;
     top:0;
     left:0;
@@ -48,12 +55,12 @@ main article figure p.sale {
     margin-top:0;
 }
 
-main article figure img{
+main section article img{
     padding:5%;
     width:100%;
 }
 
-main article figure h4{
+main section article h4{
     font-size:14px;
     font-weight:500;
     text-transform:uppercase;
@@ -61,64 +68,68 @@ main article figure h4{
     letter-spacing:1px;
 }
 
-main article figure p, main article figure p:last-of-type{
+main section article p, main section article p:last-of-type{
     line-height:20px;
     font-size:14px;
     color:#90a4ae;
 }
 
-main article figure p{
+main section article p{
+    margin:0;
+}
+
+main section article p:nth-of-type(2){
     margin-top:8px;
     font-weight:500;
 }
 
-main article figure p:last-of-type{
-    text-decoration: line-through;
-    font-weight:400;
-    margin-top:0;
-}
-
-main article figure ul {
+main section article ul {
     padding:0;
     list-style: none;
     margin-top: 9px;
     text-align:center;
 }
 
-main article figure li {
+main section article li {
     display:inline-block;
     text-align:center;
     margin: 0 10px;
 }
 
-main article figure li > a.icon::before{
+main section article li > button.icon::before{
     margin:0;
     font-size:24px;
     line-height:26px;
 }
 
-main article figure li > a:link, main article figure li > a:visited{
+main section article li > button{
     color:#cfd8dc;
-}
-
-main article figure li > a.icon:hover{
-    color:#2196f3;
-}
-
-main article div.banner{
-    width:50%;
+    margin:0;
+    padding:0;
+    background:none;
+    border:none;
+    cursor:pointer;
     font-size:0;
 }
 
-main article div.banner figure{
+main section article li > button:hover{
+    color:#2196f3;
+}
+
+main section article:nth-child(2){
+    width: 47.5%;
+    font-size:0;
+}
+
+main section article:nth-child(2){
     padding-bottom:0;
 }
 
-main article div.banner figure img{
+main section article:nth-child(2) img{
     padding:0;
 }
 
-main article div.banner figure figcaption{
+main section article:nth-child(2) figcaption{
     position:absolute;
     top:50%;
     width:100%;
@@ -128,7 +139,7 @@ main article div.banner figure figcaption{
     color:#fff;
 }
 
-main article div.banner figure figcaption h3{
+main section article:nth-child(2) figcaption h3{
     font-size:34px;
     line-height:55px;
     letter-spacing: 2px;
@@ -137,7 +148,7 @@ main article div.banner figure figcaption h3{
     text-transform: uppercase;
 }
 
-main article div.banner figure figcaption button{
+main section article:nth-child(2) figcaption button{
     font-size:15px;
     text-transform: uppercase;
     font-weight:600;

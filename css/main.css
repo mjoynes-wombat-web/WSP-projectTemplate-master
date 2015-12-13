@@ -56,23 +56,21 @@ header > h1{
     line-height:4rem;
     vertical-align:middle;
     display:inline-block;
-
-}
-
-header > h1 > span, header > p{
     font-weight:300;
 }
 
-header > p:last-of-type{
+header > h1 > em {
+    font-weight:500;
+}
+
+header > p{
     color: #823354;
     font-size:1.8rem;
     letter-spacing:-.08rem;
-    /*top:-20px;*/
     display:inline-block;
-    /*position:relative;*/
-    /*top:-.4rem;*/
     vertical-align:middle;
     padding-left:.4rem;
+    font-weight:300;
 }
 
 /* MAIN ============================== */

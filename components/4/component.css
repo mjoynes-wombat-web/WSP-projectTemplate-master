@@ -7,20 +7,25 @@ body main{
     width:1170px;
 }
 
-nav.pagination{
+section nav{
     float:right;
 }
 
-nav.pagination ul{
+nav p {
+    font-size:0;
+    margin:0;
+}
+
+section nav ul{
     padding:0;
     list-style: none;
 }
 
-nav.pagination ul li{
+section nav ul li{
     display:inline-block;
 }
 
-nav.pagination ul li a{
+section nav ul li a{
     display:inline-block;
     background:#333333;
     color:#fff;
@@ -33,15 +38,15 @@ nav.pagination ul li a{
     font-family:'Ubuntu', sans-serif;
 }
 
-nav.pagination ul li a.active{
+section nav ul li a.active{
     font-weight:bold;
     background:#91c243;
 }
 
-nav.pagination ul li a:hover{
+section nav ul li a:hover{
     background:#91c243;
 }
 
-nav.pagination ul li:not(:first-of-type){
+section nav ul li:not(:first-of-type){
     padding-left:2px;
 }

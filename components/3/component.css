@@ -5,13 +5,14 @@ body{
     font-family: 'Open Sans', Arial, sans-serif;
 }
 
-main {
+article {
     width:1200px;
     margin: 20px auto;
 }
 
 form {
-    padding:0 15px;
+    padding:0 1.25%;
+    font-size:0;
 }
 
 form h2{
@@ -21,26 +22,39 @@ form h2{
     line-height:50px;
 }
 
-form input{
-    width:30.8333%;
+form p:not(:last-of-type){
+    width:31.6666666%;
     margin:0 1.25% 30px 1.25%;
+    display:inline-block;
+}
+
+form textarea{
+    margin-bottom:30px;
+}
+
+form input{
+    width:100%;
     border:2px solid #c7d2da;
     padding:8px 20px;
     border-radius:30px;
     font-size:18px;
 }
 
-form input:first-of-type{
+form p:first-of-type{
     margin-left:0;
 }
 
-form input:last-of-type{
+form p:nth-of-type(3){
     margin-right:0;
+}
+
+form p:nth-of-type(4){
+    width:100%;
+    margin:0;
 }
 
 form textarea {
     padding:8px 20px;
-    margin-bottom:30px;
     border:2px solid #c7d2da;
     border-radius:30px;
     font-size:18px;
