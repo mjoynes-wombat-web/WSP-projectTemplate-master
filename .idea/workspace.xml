@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="236db5e3-c9a8-4c09-a883-92bc5fda2a3b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/5/component.css" afterPath="$PROJECT_DIR$/components/5/component.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/5/component.html" afterPath="$PROJECT_DIR$/components/5/component.html" />
     </list>
     <ignored path="WSP-projectTemplate-master.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -23,21 +23,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="component.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/components/5/component.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.39225182">
-              <caret line="109" column="1" selection-start-line="109" selection-start-column="1" selection-end-line="109" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="component.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="component.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/components/5/component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.5769231">
-              <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+            <state vertical-scroll-proportion="0.18233296">
+              <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -61,7 +51,6 @@
         <option value="$PROJECT_DIR$/components/1/script.js" />
         <option value="$PROJECT_DIR$/components/4/component.html" />
         <option value="$PROJECT_DIR$/components/3/component.html" />
-        <option value="$PROJECT_DIR$/components/5/component.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/components/2/component.html" />
@@ -71,6 +60,7 @@
         <option value="$PROJECT_DIR$/components/1/component.css" />
         <option value="$PROJECT_DIR$/components/4/component.css" />
         <option value="$PROJECT_DIR$/components/5/component.css" />
+        <option value="$PROJECT_DIR$/components/5/component.html" />
       </list>
     </option>
   </component>
@@ -516,18 +506,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/5/component.html">
+    <entry file="file://$PROJECT_DIR$/components/5/component.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.5769231">
-          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+        <state vertical-scroll-proportion="0.43341404">
+          <caret line="111" column="34" selection-start-line="111" selection-start-column="34" selection-end-line="111" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/5/component.css">
+    <entry file="file://$PROJECT_DIR$/components/5/component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.39225182">
-          <caret line="109" column="1" selection-start-line="109" selection-start-column="1" selection-end-line="109" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.18233296">
+          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
           <folding />
         </state>
       </provider>
