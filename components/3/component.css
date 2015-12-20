@@ -71,8 +71,10 @@ form input[type="submit"]{
     background:#c7d2da;
     margin:0;
     width:auto;
+    transition: background .1s ease-in;
 }
 
 form input[type="submit"]:hover{
     background:#2cbc62;
+    transition: background .3s ease-out;
 }
