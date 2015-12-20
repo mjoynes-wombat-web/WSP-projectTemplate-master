@@ -36,6 +36,7 @@ section nav ul li a{
     font-size:13px;
     line-height:13px;
     font-family:'Ubuntu', sans-serif;
+    transition: background .2s;
 }
 
 section nav ul li a.active{
@@ -45,6 +46,7 @@ section nav ul li a.active{
 
 section nav ul li a:hover{
     background:#91c243;
+    transition: background .3s;
 }
 
 section nav ul li:not(:first-of-type){
