@@ -68,6 +68,7 @@ body main article button, body main article button:focus {
     margin:0;
     padding:0;
     outline:none;
+    transition: color .2s;
 }
 
 body main article button.fa-angle-left{
@@ -85,4 +86,5 @@ body main article button::before{
 
 body main article button:hover{
     color:#333;
+    transition: color .2s;
 }
