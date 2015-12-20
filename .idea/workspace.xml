@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="236db5e3-c9a8-4c09-a883-92bc5fda2a3b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/2/component.css" afterPath="$PROJECT_DIR$/components/2/component.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/2/component.html" afterPath="$PROJECT_DIR$/components/2/component.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/1/component.css" afterPath="$PROJECT_DIR$/components/1/component.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/1/component.html" afterPath="$PROJECT_DIR$/components/1/component.html" />
     </list>
     <ignored path="WSP-projectTemplate-master.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,22 +24,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="component.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/components/2/component.html">
+      <file leaf-file-name="component.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/components/1/component.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.7831326">
-              <caret line="70" column="21" selection-start-line="70" selection-start-column="21" selection-end-line="70" selection-end-column="21" />
+            <state vertical-scroll-proportion="-8.109091">
+              <caret line="69" column="17" selection-start-line="69" selection-start-column="17" selection-end-line="69" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="component.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/components/2/component.css">
+      <file leaf-file-name="component.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/components/1/component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.22365339">
-              <caret line="61" column="0" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
-              <folding />
+            <state vertical-scroll-proportion="0.40430352">
+              <caret line="21" column="71" selection-start-line="21" selection-start-column="71" selection-end-line="21" selection-end-column="71" />
+              <folding>
+                <element signature="n#style#0;n#li#1;n#ul#0;n#article#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -62,17 +63,17 @@
       <list>
         <option value="$PROJECT_DIR$/components/1/script.js" />
         <option value="$PROJECT_DIR$/components/3/component.css" />
-        <option value="$PROJECT_DIR$/components/1/component.html" />
         <option value="$PROJECT_DIR$/components/4/component.css" />
         <option value="$PROJECT_DIR$/components/4/component.html" />
         <option value="$PROJECT_DIR$/components/3/component.html" />
-        <option value="$PROJECT_DIR$/components/1/component.css" />
         <option value="$PROJECT_DIR$/components/5/component.html" />
         <option value="$PROJECT_DIR$/components/5/component.css" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/components/2/component.css" />
         <option value="$PROJECT_DIR$/components/2/component.html" />
+        <option value="$PROJECT_DIR$/components/1/component.css" />
+        <option value="$PROJECT_DIR$/components/1/component.html" />
       </list>
     </option>
   </component>
@@ -442,20 +443,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/1/component.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-18.26923">
-          <caret line="69" column="17" selection-start-line="69" selection-start-column="17" selection-end-line="69" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/1/component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.9230769">
-          <caret line="6" column="35" selection-start-line="6" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/components/5/component.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.36299765">
@@ -488,8 +475,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/components/2/component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.7831326">
-          <caret line="70" column="21" selection-start-line="70" selection-start-column="21" selection-end-line="70" selection-end-column="21" />
+        <state vertical-scroll-proportion="0.3087167">
+          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
           <folding />
         </state>
       </provider>
@@ -499,6 +486,24 @@
         <state vertical-scroll-proportion="0.22365339">
           <caret line="61" column="0" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/1/component.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.109091">
+          <caret line="69" column="17" selection-start-line="69" selection-start-column="17" selection-end-line="69" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/1/component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.40430352">
+          <caret line="21" column="71" selection-start-line="21" selection-start-column="71" selection-end-line="21" selection-end-column="71" />
+          <folding>
+            <element signature="n#style#0;n#li#1;n#ul#0;n#article#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

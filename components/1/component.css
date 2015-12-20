@@ -70,11 +70,11 @@ body main article button, body main article button:focus {
     outline:none;
 }
 
-body main article button.prev{
+body main article button.fa-angle-left{
     left: 3%;
 }
 
-body main article button.next{
+body main article button.fa-angle-right{
     right:3%;
 }
 
