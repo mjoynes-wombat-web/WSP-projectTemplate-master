@@ -109,10 +109,11 @@ main section article h3{
     font-size:2rem;
 }
 
-main section article > figure{
+main section article > p:first-of-type{
     margin:0;
     text-align:center;
     font-size:0;
+    padding:0;
 }
 
 main section article img{
@@ -120,12 +121,12 @@ main section article img{
 
 }
 
-main section article p:first-of-type{
+main section article p:nth-of-type(2){
     padding-top:0;
     text-align:center;
 }
 
-main section article p:not(:first-of-type), main section article h4{
+main section article p:not(:first-of-type, :nth-of-type(2)), main section article h4{
     width:1050px;
     margin-left:auto;
     margin-right:auto;
