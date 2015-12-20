@@ -96,7 +96,7 @@ main section article li {
     margin: 0 10px;
 }
 
-main section article li > button.icon::before{
+main section article li > button[class^="flaticon-"]::before{
     margin:0;
     font-size:24px;
     line-height:26px;
