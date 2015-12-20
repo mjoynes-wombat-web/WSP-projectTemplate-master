@@ -110,10 +110,12 @@ main section article li > button{
     border:none;
     cursor:pointer;
     font-size:0;
+    transition: color .2s;
 }
 
 main section article li > button:hover{
     color:#2196f3;
+    transition: color .5s;
 }
 
 main section article:nth-child(2){
